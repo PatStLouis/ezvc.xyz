@@ -4,7 +4,7 @@
     "issuers": [
         {
             "id": "https://ezvc.xyz",
-            "endpoint": "https://ezvc.xyz/credentials/0",
+            "endpoint": "https://ezvc.xyz/credentials/0.jsonld",
             "tags": [
                 "shim",
                 "vc2.0",
