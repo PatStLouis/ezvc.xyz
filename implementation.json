@@ -1,0 +1,15 @@
+{
+    "name": "EZVC",
+    "implementation": "EZVC",
+    "issuers": [
+        {
+            "id": "https://ezvc.xyz",
+            "endpoint": "https://ezvc.xyz/credentials/0",
+            "tags": [
+                "shim",
+                "vc2.0",
+                "BitstringStatusList"
+            ]
+        }
+    ]
+}
