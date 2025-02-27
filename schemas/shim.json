@@ -4,7 +4,7 @@
         "type": {
             "type": "array",
             "contains": {
-                "const": "ExampleCredential"
+                "const": "CredentialShim"
             }
         }
     }

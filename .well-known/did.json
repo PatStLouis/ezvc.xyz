@@ -1,6 +1,30 @@
 {
-    "@context": [
+  "@context": [
       "https://www.w3.org/ns/did/v1"
-    ],
-    "id": "did:web:ezvc.xyz"
+  ],
+  "id": "did:web:ezvc.xyz",
+  "alsoKnownAs": [
+      "https://ezvc.xyz"
+  ],
+  "authentication": [
+      "did:web:ezvc.xyz#0"
+  ],
+  "assertionMethod": [
+      "did:web:ezvc.xyz#0"
+  ],
+  "verificationMethod": [
+      {
+          "id": "did:web:ezvc.xyz#0",
+          "type": "Multikey",
+          "controller": "did:web:ezvc.xyz",
+          "publicKeyMultibase": "z6MkmiYjSToh5NdEf9xNuh5mDGXGYinzcAy1s4feRHtkEQJr"
+      }
+  ],
+  "service": [
+      {
+          "id": "did:web:ezvc.xyz#credentials",
+          "type": "CredentialWallet",
+          "serviceEndpoint": "https://ezvc.xyz/credentials"
+      }
+  ]
 }
