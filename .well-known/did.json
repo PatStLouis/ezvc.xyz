@@ -2,24 +2,25 @@
     "@context": [
         "https://www.w3.org/ns/cid/v1"
     ],
-    "id": "https://ezvc.xyz",
+    "id": "did:web:ezvc.xyz",
+    "alsoKnownAs": ["https://ezvc.xyz"],
     "authentication": [
-        "https://ezvc.xyz#0"
+        "did:web:ezvc.xyz#0"
     ],
     "assertionMethod": [
-        "https://ezvc.xyz#0"
+        "did:web:ezvc.xyz#0"
     ],
     "verificationMethod": [
         {
-            "id": "https://ezvc.xyz#0",
+            "id": "did:web:ezvc.xyz#0",
             "type": "Multikey",
-            "controller": "https://ezvc.xyz",
+            "controller": "did:web:ezvc.xyz",
             "publicKeyMultibase": "z6MkmiYjSToh5NdEf9xNuh5mDGXGYinzcAy1s4feRHtkEQJr"
         }
     ],
     "service": [
         {
-            "id": "https://ezvc.xyz#credentials",
+            "id": "did:web:ezvc.xyz#credentials",
             "type": "PublicWallet",
             "serviceEndpoint": "https://ezvc.xyz/credentials"
         }
