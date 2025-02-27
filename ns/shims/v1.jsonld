@@ -1,6 +1,8 @@
 {
     "@context": {
       "@vocab": "https://www.w3.org/ns/credentials/undefined-term#",
-      "CredentialShim": "https://en.wikipedia.org/wiki/Shim_(computing)"
+      "@protected": true,
+      "CredentialShim": "https://en.wikipedia.org/wiki/Shim_(computing)",
+      "PresentationShim": "https://en.wikipedia.org/wiki/Shim_(computing)"
     }
 }

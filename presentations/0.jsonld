@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://ezvc.xyz/ns/shims/v1.jsonld"
+  ],
+  "type": [
+    "PresentationShim",
+    "VerifiablePresentation"
+  ],
+  "holder": "https://ezvc.xyz",
+  "verifiableCredential": [],
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "domain": "ezvc.xyz",
+      "challenge": "123456789",
+      "cryptosuite": "eddsa-jcs-2022",
+      "proofPurpose": "authentication",
+      "verificationMethod": "https://ezvc.xyz#0",
+      "proofValue": ""
+    }
+  ]
+}
