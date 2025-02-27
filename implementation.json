@@ -1,15 +1,24 @@
 {
-    "name": "EZVC",
-    "implementation": "EZVC",
-    "issuers": [
-        {
-            "id": "https://ezvc.xyz",
-            "endpoint": "https://ezvc.xyz/credentials/0.jsonld",
-            "tags": [
-                "shim",
-                "vc2.0",
-                "BitstringStatusList"
-            ]
-        }
-    ]
+  "name": "EZVC.XYZ",
+  "implementation": "EZVC",
+  "identifiers": [
+    {
+      "id": "https://ezvc.xyz",
+      "endpoint": "https://ezvc.xyz/cid.json",
+      "tags": [
+        "cid"
+      ]
+    }
+  ],
+  "issuers": [
+    {
+      "id": "https://ezvc.xyz",
+      "endpoint": "https://ezvc.xyz/credentials/0.jsonld",
+      "tags": [
+        "shim",
+        "vc2.0",
+        "BitstringStatusList"
+      ]
+    }
+  ]
 }
