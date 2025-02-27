@@ -2,7 +2,7 @@
     "@context": [
         "https://www.w3.org/ns/credentials/v2"
     ],
-    "id": "https://ezvc.xyz/credentials/status/0",
+    "id": "https://ezvc.xyz/status/0",
     "type": [
         "VerifiableCredential",
         "BitstringStatusListCredential"
