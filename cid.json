@@ -3,9 +3,6 @@
         "https://www.w3.org/ns/cid/v1"
     ],
     "id": "https://ezvc.xyz",
-    "alsoKnownAs": [
-        "did:web:ezvc.xyz"
-    ],
     "authentication": [
         "https://ezvc.xyz#0"
     ],
@@ -23,7 +20,7 @@
     "service": [
         {
             "id": "https://ezvc.xyz#credentials",
-            "type": "CredentialWallet",
+            "type": "PublicWallet",
             "serviceEndpoint": "https://ezvc.xyz/credentials"
         }
     ]
