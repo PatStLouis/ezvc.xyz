@@ -4,7 +4,7 @@
   "identifiers": [
     {
       "id": "https://ezvc.xyz",
-      "endpoint": "https://ezvc.xyz/cid.json",
+      "endpoint": "https://ezvc.xyz/.well-known/cid.json",
       "tags": [
         "cid"
       ]
