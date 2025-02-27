@@ -3,7 +3,7 @@
     "implementation": "EZVC",
     "issuers": [
         {
-            "id": "did:web:ezvc.xyz",
+            "id": "https://ezvc.xyz",
             "endpoint": "https://ezvc.xyz/credentials/0.jsonld",
             "tags": [
                 "shim",
